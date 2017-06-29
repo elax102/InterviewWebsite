@@ -1,0 +1,102 @@
+h1,h2,h3,h4,h5,h6,p,a,input{
+    font-family: roboto;
+    margin: 0px;
+    color: #212121;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+input{
+    padding: 0px 10px;
+    height: 30px;
+}
+
+header{
+    height: auto;
+    background-color: #9C27B0;
+}
+
+header p{
+    font-size: 2rem;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.wrapper{
+    display: flex;
+    min-height: 100%;
+}
+
+/*SIDE*/
+.wrapper .side{
+    flex: 1;
+    display: flex;
+    background-color: #AB47BC;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.side a{
+    padding: 10px;
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.side a:hover{
+    background-color: #BA68C8;
+}
+
+/*MAIN*/
+.wrapper .main{
+    flex: 3;
+    padding: 10px;
+}
+
+.post-container{
+
+}
+
+.post-item{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #F5F5F5;
+    box-shadow: 0px 2px 5px rgba(33, 33, 33, 0.5);
+    transition: box-shadow 0.3s;
+}
+
+.post-item:hover{
+    box-shadow: 0px 4px 15px rgba(33, 33, 33, 0.5);
+    transition: box-shadow 0.3s;
+}
+
+.post-item img{
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+}
+
+.post-item h1{
+    margin: 20px 0px;
+}
+
+.post-item p{
+    margin-bottom: 20px;
+}
+
+.post-item button{
+    background-color: #AB47BC;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border: 2px solid #AB47BC;
+    border-radius: 2px;
+}
+
+.post-item button:hover{
+    background-color: #BA68C8;
+}
